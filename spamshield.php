@@ -77,7 +77,7 @@ $mail->IsSMTP();
 $mail->SMTPDebug 	= 0;		 // enables SMTP debug information (for testing)
 $mail->SMTPAuth 	= true;	  // enable SMTP authentication
 $mail->Host 		= $mailhost; // sets the SMTP server
-$mail->Port			= $mailport; // set the SMTP port for the GMAIL server
+$mail->Port         = $mailport; // set the SMTP port for the GMAIL server
 $mail->Username   	= $mailuser; // SMTP account username
 $mail->Password 	= $mailpass; // SMTP account password
 $mail->CharSet 		= 'utf-8';
