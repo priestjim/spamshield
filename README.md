@@ -57,7 +57,7 @@ In order to operate SpamShield correctly you must update the following variables
 * `$mailfrom`: Define here the envelope from of the notification mail
 * `$mailname`: Define here the envelope from name of the notification mail
 * `$mailsubj`: Define here the mail subject you want on notifications
-* `adminemails`: Define here in an array the e-mails of the administrators you may want to notify of spam issues
+* `$adminemails`: Define here in an array the e-mails of the administrators you may want to notify of spam issues
 
 The script also includes an HTML template for mail notifications that you can completely customize (but is nice enough as it is).
 
